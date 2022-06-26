@@ -1,0 +1,104 @@
+body {
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+    background-color:#F1F5F8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-container{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+#title{
+    padding-bottom:50px;
+}
+
+h1{
+    font-size:45px;
+    color:#19334A;
+    margin:0px;
+}
+
+hr{
+    padding:0px;
+    color:#49A6EA;
+    width:70px;
+    border:2px solid;
+}
+
+.reviews-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:white;
+    width:50%;
+    border-radius:10px;
+    box-sizing: border-box;
+    box-shadow:6px 6px 6px rgb(223, 219, 219);
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+#circle-image {
+    display: inline-block;
+    border-radius: 50%;
+    object-fit:cover;
+    width: 150px;
+    height: 150px;
+    position: relative;
+  }
+
+#person-img{
+    width:100%;
+    height:100%;
+    border-radius:60%;
+    box-sizing: border-box;
+    box-shadow:5px 0px 0px 5px #49A6EA;
+    position: relative;
+    object-fit:cover;
+}
+
+#name, #text{
+    padding-top:10px;
+    text-align:center;
+}
+
+#name{
+    letter-spacing: 3px;
+    font-weight:bolder;
+    font-size:20px;
+    padding-top:20px;
+    color:#19334A;
+}
+
+#text{
+    padding-left:40px;
+    padding-right:40px;
+    line-height:20px;
+    font-size:17px;
+    color:#617E98;
+}
+
+#profession{
+    color:#49A6EA;
+    text-transform: uppercase;
+    font-size:15px;
+    padding-top:2px;
+    padding-bottom:5px;
+    font-weight:bold;
+}
+
+#btn{
+    background-color: white;
+    border:none;
+    padding-top:20px;
+    cursor:pointer;
+}
+
